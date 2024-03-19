@@ -50,3 +50,15 @@ def handle_command(command):
             speak("Sorry, I didn`t catch that. Please try again.")
     else:
         speak("Sorry, I didn`t understand that command.")
+
+
+def main():
+    speak("Hello, How can I assist you today?")
+
+    while True:
+        command = listen()
+        if "goodbye" in command:
+            speak("Goodbye, Have a great Day!")
+            break
+        handle_command(command)
+
