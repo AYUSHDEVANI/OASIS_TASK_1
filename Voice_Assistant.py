@@ -25,3 +25,8 @@ def listen():
             print(f"Error: {e}")
             return ""
 
+# Function to speak out text
+def speak(text):
+    engine.say(text)
+    engine.runAndWait()
+
