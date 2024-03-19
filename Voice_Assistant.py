@@ -65,6 +65,19 @@ def handle_command(command):
         speak("Here you go to youtube")
         webbrowser.open("https://www.youtube.com/")
 
+    elif "open google" in command:
+        speak("Please wait Google is ready for you....")
+        webbrowser.open("https://www.google.co.in/")
+    
+    elif "open mail" in commans:
+        speak("Here you go to mail ......")
+        webbrowser.open("https://mail.google.com/mail/u/0/#inbox")
+
+    elif "open whatsapp" in command:
+        speak("Open Whatsapp please wait a moment............")
+        webbrowser.open("https://web.whatsapp.com/")
+    
+
 
     elif "search" in command:
         speak("What would you like to search for?")
