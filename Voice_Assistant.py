@@ -62,3 +62,5 @@ def main():
             break
         handle_command(command)
 
+if __name__ == "__main__":
+    main()
