@@ -33,6 +33,7 @@ def speak(text):
     engine.runAndWait()
 
 
+
 def handle_command(command):
     if "hello" in command:
         speak("Hello! How can I assist you?")
